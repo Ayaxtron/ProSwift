@@ -2,6 +2,8 @@
 
 import Foundation
 
+//Immutability in Structs and Classes is not exactly the same
+
 struct PersonStruct {
     var name: String
     var age: Int
