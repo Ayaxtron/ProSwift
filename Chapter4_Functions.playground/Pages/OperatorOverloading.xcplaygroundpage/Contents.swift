@@ -54,8 +54,9 @@ func ** (lhs: Double, rhs: Double) -> Double {
 let test = 2 ** 4 ** 2
 
 //Modifying ... so that we can use it twice 2...4...1 and get [2,3,4,3,2,1]
- 
-precedencegroup RangeFormationPrecedence{  
+//Comment the code above, except the import, to make it work
+ /*
+precedencegroup RangeFormationPrecedence{
     associativity: left
     higherThan: CastingPrecedence
 }
@@ -69,5 +70,5 @@ func ... (lhs: CountableClosedRange<Int>, rhs: Int) -> [Int] {
 
 let range = 1...7...3
 print(range)
-
+*/
 //: [Next](@next)
