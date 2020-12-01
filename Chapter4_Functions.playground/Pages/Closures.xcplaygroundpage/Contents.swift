@@ -94,5 +94,5 @@ func printTest(_ result: @autoclosure () -> Void) {
     result()
     print("After")
 }
-printTest(print("Hello"))//This line turns to a closure in the funcition printTest({ print("Hello") })
+printTest(print("Hello"))//This line turns to a closure in the function printTest({ print("Hello") })
 //: [Next](@next)
