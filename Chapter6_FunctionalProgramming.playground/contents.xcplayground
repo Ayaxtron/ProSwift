@@ -7,5 +7,8 @@
         <page name='map()'/>
         <page name='reduce()'/>
         <page name='sort()'/>
+        <page name='Function Composition'/>
+        <page name='Lazy Functions'/>
+        <page name='Functions &amp; Monads'/>
     </pages>
 </playground>
